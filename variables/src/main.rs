@@ -16,4 +16,20 @@ fn main(){
 
     const MAX_POINTS:u32 = 100_000; // 싱수 선언
     println!("MAX Point is : {}", MAX_POINTS);
+
+    let y:i32 = 98_222;
+    println!("y: {}", y);
+
+    let i:i32 = 0xff;
+    println!("i: {}", i);
+
+    let a:i32 = 0o77;
+    println!("a: {}", a);
+
+    let b:u8 = 0b1111_0001;
+    println!("b: {}", b);
+
+    let c:u8 = b'A';
+    println!("c: {}", c);
+
 }
