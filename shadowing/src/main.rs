@@ -8,15 +8,9 @@
 //     println!("The value of x is : {}", x);
 // }
 
-// fn main(){
-//     let spaces = "             ";
-//     let spaces = spaces.len();
-
-//     println!("spaces: {}",spaces);
-// }
-
-
 fn main(){
-    let mut spaces = "        ";
+    let spaces = "             ";
     let spaces = spaces.len();
+
+    println!("spaces: {}",spaces);
 }
