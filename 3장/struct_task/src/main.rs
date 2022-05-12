@@ -52,6 +52,13 @@ fn main(){
         sign_in_count: user1.sign_in_count,
     };
 
+
+    let user3 = User{
+        email: String::from("theother@example.com"),
+        username: String::from("theotherusername890"),
+        ..user1
+    };
+
     println!("username: {}", user1.username);
     println!("email: {}", user1.email);
     println!("active: {}", user1.active);
@@ -61,6 +68,12 @@ fn main(){
     println!("email: {}", user2.email);
     println!("active: {}", user2.active);
     println!("sign_in_count: {}", user2.sign_in_count);
+
+    println!("username: {}", user3.username);
+    println!("email: {}", user3.email);
+    println!("active: {}", user3.active);
+    println!("sign_in_count: {}", user3.sign_in_count);
+
 
 }
 
